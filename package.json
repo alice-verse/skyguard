@@ -1,0 +1,16 @@
+{
+  "name": "skyguard",
+  "version": "0.1.0",
+  "description": "Explainable anomaly detection for temperature, pressure and humidity readings from automatic weather stations. Inspired by the public SIH 2026 problem statement SIH26073.",
+  "type": "module",
+  "scripts": {
+    "demo": "node src/cli.js demo",
+    "evaluate": "node src/cli.js evaluate",
+    "detect": "node src/cli.js detect data/sample.csv",
+    "generate-sample": "node src/cli.js generate-sample",
+    "test": "node --test",
+    "serve": "python3 -m http.server 8080"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
